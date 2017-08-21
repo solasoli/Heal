@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.heal.alfabet.heal.HomeActivity">
+    <android.support.v7.view.menu.ListMenuItemView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.view.menu.ListMenuItemView>
+
+    <Button
+        android:id="@+id/chartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chart"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/logsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logs"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/syncButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/bmiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI "
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+</android.support.constraint.ConstraintLayout>
